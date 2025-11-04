@@ -17,6 +17,13 @@ A API possui os seguintes endpoints principais para a gestão de usuários:
 | `PUT` | `/usuarios/atualizar/{id_usuario}` | Atualiza os dados de um usuário existente. |
 | `DELETE` | `/usuarios/delete/{id_usuario}` | Remove um usuário do sistema. |
 
+Uma interface simples para os usuários realizarem o login no sistema.
+![Tela de Login](https://github.com/gxhenrique/crud_login_usuario/blob/main/login_img.png)
+### Tela de Cadastro/Formulário de Usuário
+
+Um formulário para cadastrar novos usuários, incluindo nome, email, senha e data de nascimento.
+![Tela de Cadastro de Usuário](https://github.com/gxhenrique/crud_login_usuario/blob/main/cadastro_img.png))
+
 ## 🛠️ Tecnologias Utilizadas
 
 * **FastAPI:** Framework web de alta performance para APIs.
